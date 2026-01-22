@@ -23,6 +23,7 @@ public class EmployeeController {
 	@RequestMapping("/employees")
 
 	 public List<Employee> getEmployees() {
+		System.out.println("List all employees details");
 
 		 List<Employee> empList= new ArrayList<Employee>();
 
